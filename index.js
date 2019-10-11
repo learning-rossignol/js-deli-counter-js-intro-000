@@ -12,7 +12,7 @@ function nowServing(line) {
   }
   let next = line[0];
   line.shift();
-  return `Currently serving ${next}.``;
+  return `Currently serving ${next}.`;
 }
 
 
