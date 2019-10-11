@@ -14,8 +14,8 @@ function nowServing(line) {
 
 function currentLine( line){
 
-  let sfx = (line.length === 0) ? " empty" : ": " + (line.length - 1);
-  return
+  let sfx = (line.length === 0) ? " empty" : enumLine();
+  return `The line is currently ${sfx}`;
 
   function enumLine() {
     var store = "";
