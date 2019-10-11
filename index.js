@@ -23,5 +23,6 @@ function currentLine( line){
       let pfx = ((store === "") ? "" : ", ");
       store +=  `${pfx}${i + 1}. ${line[i]}`
     }
+    return store;
   }
 }
